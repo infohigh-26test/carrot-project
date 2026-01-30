@@ -28,4 +28,8 @@ public class MainController {
 	public String seji2() {
 		return "seji2";
 	}
+	@GetMapping("/board")
+	public String board() {
+		return "board";
+	}
 }
