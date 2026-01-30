@@ -15,4 +15,8 @@ public class MainController {
 	public String sub() {
 		return "sub";
 	}
+	@GetMapping("/board")
+	public String board() {
+		return "board";
+	}
 }
