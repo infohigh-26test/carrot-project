@@ -24,4 +24,8 @@ public class MainController {
 	public String seji() {
 		return "seji";
 	}
+	@GetMapping("/seji2")
+	public String seji2() {
+		return "seji2";
+	}
 }
