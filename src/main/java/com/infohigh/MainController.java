@@ -12,6 +12,10 @@ public class MainController {
 		return "index";
 	}
 
+	@GetMapping("/login")
+	public String login() {
+		return "login";
+
 	@GetMapping("/sub")
 	public String sub() {
 		return "sub";
